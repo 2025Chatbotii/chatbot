@@ -113,7 +113,7 @@ def dice_answer(call):
 
 
 
-if __name__ == "__main__ ок":
+if __name__ == "__main__":
     server_url = os.getenv("RENDER_EXTERNAL_URL")
     if server_url and TOKEN:
         webhook_url = f"{server_url}/{TOKEN}"
