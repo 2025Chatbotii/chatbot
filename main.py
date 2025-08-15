@@ -37,7 +37,7 @@ def send_welcome(message):
 
 
 @bot.message_handler(commands =['list'])
-def list(message)
+def list(message):
     try:
         bot.send_message(message.chat.id, "Список команд: 1.Время /date")
 
