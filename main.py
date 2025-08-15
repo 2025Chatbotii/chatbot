@@ -4,7 +4,7 @@ from datetime import datetime
 import reqests
 import os
 import gdown
-import flask import Flask, reqest 
+from flask import Flask, request 
 TOKEN = ("os.getenv(BOT _TOKEN")
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
