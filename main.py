@@ -1,7 +1,7 @@
 import telebot
 from random import randint
 from datetime import datetime
-import reqests
+import requests
 import os
 import gdown
 from flask import Flask, request 
