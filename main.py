@@ -5,7 +5,7 @@ import requests
 import os
 import gdown
 from flask import Flask, request 
-TOKEN = os.getenv("BOT _TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
 app = Flask(__name__)
